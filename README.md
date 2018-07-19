@@ -1,10 +1,11 @@
 # add trello card from your linux terminal with a single line command
+### Example
+This command will add the card "do not forget milk" to the trello board of your liking.
 ```console
 teezeit@1231239EB:~$ trello "do not forget milk"
 ```
 
-based on: https://gist.github.com/CrookedNumber/8856939.
-This is, if you only want a single place that your notes go to.
+### Steps
 
 0. Log in to trello.
 1. Go to: https://trello.com/1/appKey/generate.
@@ -32,3 +33,9 @@ This is, if you only want a single place that your notes go to.
  
 12. "do not forget milk" should be appear as a card in your trello list "today"
 13. let me know if it works!
+
+
+
+
+### thank you
+based on: https://gist.github.com/CrookedNumber/8856939.
