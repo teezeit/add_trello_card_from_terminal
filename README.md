@@ -25,4 +25,6 @@ This is, if you only want a single place that your notes go to.
   teezeit@1231239EB:~$ trello "do not forget milk"
   ```
   from terminal.
-12. let me know if it works!
+ 
+12. "do not forget milk" should be appear as a card in your trello list "today"
+13. let me know if it works!
