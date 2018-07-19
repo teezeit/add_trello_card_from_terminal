@@ -1,4 +1,8 @@
-# add trello card from your linux terminal
+# add trello card from your linux terminal with a single line command
+```console
+teezeit@1231239EB:~$ trello "do not forget milk"
+```
+
 based on: https://gist.github.com/CrookedNumber/8856939.
 This is, if you only want a single place that your notes go to.
 
