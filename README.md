@@ -17,8 +17,12 @@ This is, if you only want a single place that your notes go to.
   ```
   and if you want to add to list "today", `LIST_ID` would be `daf38f754ebbdaffaadc5332`
   
-8. copy the file `trello` from https://github.com/teezeit/add_trello_card_from_terminal/blob/master/trello
-9. replace `APP_KEY`, `USER_TOKEN` and `LIST_ID` with your information. ideally, keep the name `trello`
-10. put the file in `/usr/local/bin/` and make the file executable
-11. you should be able to run `trello "do not forget milk"` from terminal.
+8. copy the file *trello* from https://github.com/teezeit/add_trello_card_from_terminal/blob/master/trello
+9. replace `APP_KEY`, `USER_TOKEN` and `LIST_ID` with your information. ideally, keep the filename *trello*
+10. put *trello* in `/usr/local/bin/` and make the file executable
+11. you should be able to run
+  ```console
+  teezeit@1231239EB:~$ trello "do not forget milk"
+  ```
+  from terminal.
 12. let me know if it works!
