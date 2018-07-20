@@ -1,8 +1,8 @@
 # add trello card from your linux terminal with a single line command
 ### Example
-This command will add the card "do not forget milk" to the trello board of your liking.
+This command will add the card `do not forget milk` to the trello board and list of your liking.
 ```console
-teezeit@1231239EB:~$ trello "do not forget milk"
+teezeit@1231239EB:~$ trello do not forget milk
 ```
 
 ### Steps
@@ -27,11 +27,11 @@ teezeit@1231239EB:~$ trello "do not forget milk"
 10. put *trello* in `/usr/local/bin/` and make the file executable
 11. you should be able to run
   ```console
-  teezeit@1231239EB:~$ trello "do not forget milk"
+  teezeit@1231239EB:~$ trello do not forget milk
   ```
-  from terminal.
+  from terminal. all inputs after trello will be concatenated
  
-12. "do not forget milk" should be appear as a card in your trello list "today"
+12. `do not forget milk` should be appear as a card in your trello list "today"
 13. let me know if it works!
 
 
