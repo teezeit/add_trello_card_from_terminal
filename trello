@@ -1,13 +1,20 @@
 #!/bin/bash
 
-# These are the ids and keys you should have gotten from trello. keep the `, but fill in your personal variables.
+# These are the ids and keys you should have gotten from trello. keep the '', but fill in your personal variables.
 listid='LIST_ID'
 appkey='APP_KEY'
 usertoken='USER_TOKEN'
 
-# replace spaces in name with + (or else http call will fail)
-note=$1
+# concatenate all inputs
+note=""
+for var in "$@"
+do
+    note=$note" "$var
+done
+
+# replace spaces in note with + (or else http call will fail)
 safe_note=$(echo $note|tr ' ' '+')
+
 
 # concatenate your note with the keys into a request
 data="name="$safe_note"&due=null&idList="$listid"&token="$usertoken"&key="$appkey
